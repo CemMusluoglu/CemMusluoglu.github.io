@@ -7,3 +7,12 @@
 
 "Vision":
   color: "#009f36"
+
+"EUSIPCO":
+  color: "#8d5ade"
+
+"ICASSP":
+  color: "#0c94f5"
+
+"IEEE TSP":
+  color: "#8dc7f0"
