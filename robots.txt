@@ -1,1 +1,1 @@
-User-agent: * Disallow: Sitemap: https://CemMusluoglu.github.io/al-folio/sitemap.xml
+User-agent: * Disallow: Sitemap: https://CemMusluoglu.github.io/sitemap.xml
