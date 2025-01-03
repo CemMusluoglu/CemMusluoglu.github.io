@@ -471,7 +471,7 @@ ninja.data = [{
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/Cem Musluoglu", "_blank");
+          window.open("https://www.linkedin.com/in/cem-musluoglu", "_blank");
         },
       },{
         id: 'social-scholar',
