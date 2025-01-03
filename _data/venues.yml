@@ -9,10 +9,25 @@
   color: "#009f36"
 
 "EUSIPCO":
-  color: "#8d5ade"
+  color: "#a275ea"
 
 "ICASSP":
   color: "#0c94f5"
 
 "IEEE TSP":
   color: "#8dc7f0"
+
+"arXiv":
+  color: "#dd0514"
+
+"Software":
+  color: "#03c175"
+
+"SITB":
+  color: "#ea8837"
+
+"Thesis":
+  color: "#ffbb46"
+
+"Tutorial":
+  color: "#03c120"

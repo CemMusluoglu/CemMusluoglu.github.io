@@ -1,151 +1,123 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
-}
-
-@book{einstein1956investigations,
+@article{musluoglu2024districa,
   bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
-}
-
-
-@article{musluoglu2021dtro,
-  abbr={IEEE TSP},
-  title={Distributed adaptive trace ratio optimization in wireless sensor networks},
-  preview={b_d7.pdf},
+  abbr={arXiv},
+  title={Distributed Blind Source Separation based on FastICA},
+  preview={ica_convergence_K.pdf},
   author={Musluoglu, Cem Ates and Bertrand, Alexander},
-  journal={IEEE Transactions on Signal Processing},
-  volume={69},
-  pages={3653--3670},
-  year={2021},
-  publisher={IEEE}
+  journal={Submitted for review},
+  pages={1--5},
+  year={2024},
+  abstract={With the emergence of wireless sensor networks (WSNs), many traditional signal processing tasks are required to be computed in a distributed fashion, without transmissions of the raw data to a centralized processing unit, due to the limited energy and bandwidth resources available to the sensors. In this paper, we propose a distributed independent component analysis (ICA) algorithm, which aims at identifying the original signal sources based on observations of their mixtures measured at various sensor nodes. One of the most commonly used ICA algorithms is known as FastICA, which requires a spatial pre-whitening operation in the first step of the algorithm. Such a pre-whitening across all nodes of a WSN is impossible in a bandwidth-constrained distributed setting as it requires to correlate each channel with each other channel in the WSN. We show that an explicit network-wide pre-whitening step can be circumvented by leveraging the properties of the so-called Distributed Adaptive Signal Fusion (DASF) framework. Despite the lack of such a network-wide pre-whitening, we can still obtain the  least Gaussian independent components of the centralized ICA solution, where scales linearly with the required communication load.},
+  pdf={districa_submitted.pdf}
 }
-@misc{musluoglu2022dasftoolbox,
-  author = {Musluoglu, Cem Ates and Bertrand, Alexander},
-  title = {{DASF Toolbox}},
-  url = {https://github.com/AlexanderBertrandLab/DASF_toolbox},
-  year = {2022}
+
+@ARTICLE{musluoglu2024tutorial,
+    abbr={Tutorial},
+    author={Musluoglu, Cem Ates},
+    title={A Unified Framework for Distributed Adaptive Spatial Filtering},
+    journal={Tutorial presented at the IEEE Sensor Array and Multichannel Signal Processing Workshop (SAM 2024), Corvallis, Oregon, USA},
+    preview={tutorial_sam.png},
+    slides={DASF_SAM_Tutorial.pdf},
+    year={2024}
+}
+
+@article{musluoglu2023fdasf,
+  bibtex_show={true},
+  abbr={arXiv},
+  title={Distributed Adaptive Signal Fusion for Fractional Programs},
+  preview={dasf_vs_fdasf_2.pdf},
+  author={Musluoglu, Cem Ates and Bertrand, Alexander},
+  journal={Submitted for review},
+  pages={1--13},
+  abstract={The distributed adaptive signal fusion (DASF) framework allows to solve spatial filtering optimization problems in a distributed and adaptive fashion over a bandwidth-constrained wireless sensor network. The DASF algorithm requires each node to sequentially build a compressed version of the original network-wide problem and solve it locally. However, these local problems can still result in a high computational load at the nodes, especially when the required solver is iterative. In this paper, we study the particular case of fractional programs, i.e., problems for which the objective function is a fraction of two continuous functions, which indeed require such iterative solvers. By exploiting the structure of a commonly used method for solving fractional programs and interleaving it with the iterations of the standard DASF algorithm, we obtain a distributed algorithm with a significantly reduced computational cost compared to the straightforward application of DASF as a meta-algorithm. We prove convergence and optimality of this "fractional DASF" (FDASF) algorithm and demonstrate its performance via numerical simulations.},
+  year={2024},
+  pdf={fdasf_submitted.pdf}
+}
+
+@ARTICLE{musluoglu2023tutorial,
+    abbr={Tutorial},
+    author={Bertrand, Alexander and Musluoglu, Cem Ates and Hovine, Charles},
+    title={Distributed Spatial Filtering and Signal Fusion},
+    journal={Tutorial presented at the 2023 31st European Signal Processing Conference (EUSIPCO), Helsinki, Finland},
+    preview={tutorial_eusipco.png},
+    slides={DASF EUSIPCO Tutorial.pdf},
+    year={2023}
+}
+
+@article{musluoglu2023thesis,
+  bibtex_show={true},
+  abbr={Thesis},
+  title={Distributed Spatial Filtering in Wireless Sensor Networks},
+  author={Musluoglu, Cem Ates},
+  year={2023},
+  abstract={Wireless sensor networks (WSNs) paved the way for accessing data previously unavailable by deploying sensors in various locations in space, each collecting local measurements of a target source signal. By exploiting the information resulting from the multitude of signals measured at the different sensors of the network, various tasks can be achieved, such as denoising or dimensionality reduction which can in turn be used, e.g., for source localization or detecting seizures from electroencephalography measurements. 
+
+  Spatial filtering consists of linearly combining the signals measured at each sensor of the network such that the resulting filtered signal is optimal in some sense. This technique is widely used in biomedical signal processing, wireless communication, and acoustics, among other fields. In spatial filtering tasks, the aim is to exploit the correlation between the signals of all sensors in the network, therefore requiring access to all signals collected at the nodes. Due to the high energy cost of transmitting these signals to a central processing unit, many applications require a fully distributed approach to solve spatial filtering problems in order to reduce the energy and bandwidth requirements. Although various distributed signal processing methods already exist, many of them are not designed to solve spatial filtering problems, which makes them either impractical or not usable in this setting. On the other hand, existing methods for distributed spatial filtering are tailored for specific problems. The aim of this thesis is therefore to provide a generic framework for designing distributed algorithms for such spatial filtering problems.
+
+  In the first part, we derive the steps of the proposed Distributed Adaptive Signal Fusion (DASF) framework, which allows us to design adaptive and distributed algorithms to solve spatial filtering problems in a WSN context. The framework can be used to solve a large family of optimization problems including many commonly used spatial filtering criteria such as minimum mean square error, principal component analysis, trace ratio optimization, minimum variance beamforming, and canonical correlation analysis, among others. We provide a technical analysis of the convergence properties of the proposed method and show that convergence to an optimal solution is achieved in most practical scenarios while also discussing solutions for the very contrived cases where convergence is not guaranteed. 
+
+  In the second part, the focus is on improving the DASF framework and extending it to larger problem families. More specifically, we describe an approach for improving the adaptivity properties of the framework while keeping the amount of additional data transmission required for this low. We also extend the DASF framework to node-specific problems where each node has a different task to solve. Finally, a computationally efficient variant of the DASF framework is provided for fractional programs, significantly reducing the computational burden at each node of the network.
+
+  The DASF framework and its extensions presented in this thesis therefore fill the gap in the existing literature on distributed spatial filtering problems for which traditional distributed signal processing methods are usually not suited. The framework also unifies existing distributed algorithms for specific spatial filtering problems without having to design a tailored approach for each instance.
+
+  To summarize, this thesis provides a generic unified framework to solve spatial filtering problems in an adaptive and distributed fashion, in order to cope with the energy and bandwidth limitations of wireless sensor networks. The proposed distributed algorithms converge to the optimal solution of the problems of interest under mild conditions generally satisfied in practice as demonstrated in various simulations.},
+  pdf={thesis.pdf},
+  preview={network.pdf}
+}
+
+@inproceedings{musluoglu2023dansf,
+  bibtex_show={true},
+  abbr={EUSIPCO},
+  title={A Distributed Adaptive Algorithm for Node-Specific Signal Fusion Problems in Wireless Sensor Networks},
+  preview={dansf_ada.pdf},
+  author={Musluoglu, Cem Ates and Bertrand, Alexander},
+  booktitle={2023 31st European Signal Processing Conference (EUSIPCO)}, 
+  pages={1654--1658},
+  year={2023},
+  abstract={The distributed adaptive signal fusion (DASF) framework has been proposed as a generic method to solve spatial filtering and signal fusion problems in a distributed fashion over a wireless sensor network, reducing the communication and energy costs compared to a centralized approach. The DASF framework assumes that there is a common goal across the nodes, i.e., all nodes collaborate to optimize the same network-wide objective function. However, some applications require node-specific objectives, which are linked via a common latent target signal subspace. In this work, we propose the distributed adaptive node-specific signal fusion (DANSF) algorithm which builds upon the DASF framework, and extends it to allow for such node-specific spatial filtering problems.},
+  doi={10.23919/EUSIPCO58844.2023.10289843},
+  slides={dansf_slides.pdf},
+  poster={poster_dansf.pdf},
+  pdf={dansf_eusipco.pdf},
+}
+
+@inproceedings{musluoglu2023computationally,
+  bibtex_show={true},
+  abbr={ICASSP},
+  title={A Computationally Efficient Algorithm for Distributed Adaptive Signal Fusion based on Fractional Programs},
+  preview={dasf_vs_fdasf_gaussian_new.pdf},
+  author={Musluoglu, Cem Ates and Bertrand, Alexander},
+  booktitle={ICASSP 2023-2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pages={1--5},
+  year={2023},
+  doi={10.1109/ICASSP49357.2023.10096219},
+  abstract={Spatial filtering procedures aim to optimally fuse the different signals collected in a sensor array, by exploiting their inter-channel correlations. If the sensors are physically distributed, as it is the case in a wireless sensor network, the inter-channel statistics cannot directly be measured or tracked, unless the data is transmitted to a central processor, which is not always possible due to energy or bandwidth constraints. The so-called distributed adaptive signal fusion (DASF) algorithm allows to solve such problems in a distributed fashion with a reduced communication burden. The DASF algorithm iterates over the different nodes of the network, each solving a local compressed version of the original (centralized) optimization problem. However, if the solver for these local optimization problems is in itself also iterative, the computational burden can become quite large as these iterations are nested within the DASF iterations. In this paper, we focus on Dinkelbach's iterative procedure to solve fractional programs, i.e., problems of which the objective function is a ratio of two continuous functions. We propose the fractional DASF (F-DASF) algorithm which interleaves the iterations of DASF with those of Dinkelbach's procedure, to reduce the computational burden without affecting the convergence properties of the original DASF algorithm.},
+  slides={fdasf_slides.pdf},
+  poster={poster_fdasf.pdf},
+  pdf={fdasf_icassp.pdf}
 }
 
 @ARTICLE{musluoglu2022unifiedp1,
-abbr={IEEE TSP},
-author={Musluoglu, Cem Ates and Bertrand, Alexander},
-journal={IEEE Transactions on Signal Processing}, 
-title={A Unified Algorithmic Framework for Distributed Adaptive Signal and Feature Fusion Problems—Part {I}: Algorithm Derivation}, 
-preview={data_flow.pdf},
-year={2023},
-volume={71},
-number={},
-pages={1863-1878},
-doi={10.1109/TSP.2023.3275272}}
+  bibtex_show={true},
+  abbr={IEEE TSP},
+  author={Musluoglu, Cem Ates and Bertrand, Alexander},
+  journal={IEEE Transactions on Signal Processing}, 
+  title={A Unified Algorithmic Framework for Distributed Adaptive Signal and Feature Fusion Problems—Part {I}: Algorithm Derivation}, 
+  preview={data_flow.pdf},
+  year={2023},
+  volume={71},
+  number={},
+  pages={1863-1878},
+  abstract={In this article, we describe a general algorithmic framework for solving linear signal or feature fusion optimization problems in a distributed setting, for example in a wireless sensor network (WSN). These problems require linearly combining the observed signals (or features thereof) collected at the various sensor nodes to satisfy a pre-defined optimization criterion. The framework covers several classical spatial filtering problems, including minimum variance beamformers, multi-channel Wiener filters, principal component analysis, canonical correlation analysis, (generalized) eigenvalue problems, etc. The proposed distributed adaptive signal fusion (DASF) algorithm is an iterative method that solves these types of problems by allowing each node to share a linearly compressed version of the local sensor signal observations with its neighbors to reduce the energy and bandwidth requirements of the network. We first discuss the case of fully-connected networks and then extend the analysis to more general network topologies. The general DASF algorithm is shown to have several existing distributed algorithms from the literature as a special case, while at the same time allowing to solve new distributed problems as well with guaranteed convergence and optimality. This article focuses on the algorithm derivation of the DASF framework along with simulations demonstrating its performance. A technical analysis along with convergence conditions and proofs are provided in a companion article.},
+  pdf={dasf_part1_ieee.pdf},
+  doi={10.1109/TSP.2023.3275272}
+}
 
 @ARTICLE{musluoglu2022unifiedp2,
+  bibtex_show={true},
   abbr={IEEE TSP},
   author={Musluoglu, Cem Ates and Hovine, Charles and Bertrand, Alexander},
   journal={IEEE Transactions on Signal Processing}, 
@@ -155,29 +127,38 @@ doi={10.1109/TSP.2023.3275272}}
   volume={71},
   number={},
   pages={1879-1894},
-  doi={10.1109/TSP.2023.3275273}}
+  abstract={This article studies the convergence conditions and properties of the distributed adaptive signal fusion (DASF) algorithm, the framework itself having been introduced in a ‘Part I’ companion paper. The DASF algorithm can be used to solve linear signal and feature fusion optimization problems in a distributed fashion, and is in particular well-suited for solving spatial filtering optimization problems encountered in wireless sensor networks. The convergence conditions and results are provided along with rigorous proofs and analyses, as well as various example problems to which they apply. Additionally, we describe procedures that can be added to the DASF algorithm to ensure convergence in specific cases where some of the technical convergence conditions are not satisfied.},
+  pdf={dasf_part2_ieee.pdf},
+  supp={dasf_part2_supplementary_ieee.pdf},
+  doi={10.1109/TSP.2023.3275273}
+}
 
-@inproceedings{musluoglu2021dtrofc,
-  abbr={EUSIPCO},
-  title={Distributed Trace Ratio Optimization in Fully-Connected Sensor Networks},
-  preview={fcdtro.pdf},
-  author={Musluoglu, Cem Ates and Bertrand, Alexander},
-  booktitle={2020 28th European Signal Processing Conference (EUSIPCO)},
-  pages={1991--1995},
-  year={2021},
-  organization={IEEE}
+@misc{musluoglu2022dasftoolbox,
+  bibtex_show={true},
+  abbr={Software},
+  author = {Musluoglu, Cem Ates and Bertrand, Alexander},
+  title = {{DASF Toolbox}},
+  url = {https://github.com/AlexanderBertrandLab/DASF_toolbox},
+  code = {https://github.com/CemMusluoglu/DASF_toolbox},
+  preview={dasf_qr.png},
+  year = {2022}
 }
-@inproceedings{musluoglu2023computationally,
-  abbr={ICASSP},
-  title={A Computationally Efficient Algorithm for Distributed Adaptive Signal Fusion based on Fractional Programs},
-  preview={dasf_vs_fdasf_gaussian_new.pdf},
-  author={Musluoglu, Cem Ates and Bertrand, Alexander},
-  booktitle={ICASSP 2023-2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
-  pages={1--5},
-  year={2023},
-  organization={IEEE}
+
+@inproceedings{musluoglu2022dasf_sitb,
+  bibtex_show={true},
+  abbr={SITB},
+  title={A Distributed Adaptive Signal Fusion Framework for Spatial Filtering within a Wireless Sensor Network},
+  author={Musluoglu, Cem Ates and Hovine, Charles and Bertrand, Alexander},
+  booktitle={Pre-Proceedings of the 2022 Symposium on Information Theory and Signal Processing in the Benelux},
+  pages={104},
+  preview={data_compression.pdf},
+  pdf={abstract_sitb.pdf},
+  poster={poster_DASF_SITB_2022.pdf}, 
+  year={2022}
 }
+
 @inproceedings{musluoglu2022improved,
+  bibtex_show={true},
   abbr={EUSIPCO},
   title={Improved Tracking for Distributed Signal Fusion Optimization in a Fully-Connected Wireless Sensor Network},
   preview={track.pdf},
@@ -185,21 +166,51 @@ doi={10.1109/TSP.2023.3275272}}
   booktitle={2022 30th European Signal Processing Conference (EUSIPCO)},
   pages={1836--1840},
   year={2022},
-  organization={IEEE}
+  doi={10.23919/EUSIPCO55093.2022.9909686},
+  abstract={The distributed adaptive signal fusion (DASF) algorithm is a generic algorithm that can be used to solve various spatial signal and feature fusion optimization problems in a distributed setting such as a wireless sensor network. Examples include principal component analysis, adaptive beamforming, and source separation problems. While the DASF algorithm adaptively learns the relevant second order statistics from the collected sensor data, accuracy problems can arise if the spatial covariance structure of the signals is rapidly changing. In this paper, we propose a method to improve the tracking or convergence speed of the DASF algorithm in a fully-connected sensor network with a broadcast communication protocol. While the improved tracking increases communication cost, we demonstrate that this tradeoff is efficient in the sense that an $L$-fold increase in bandwidth results in an $R$ times faster convergence with $R>>L$},
+  slides={tracking_slides.pdf},
+  pdf={tracking_eusipco.pdf}
 }
-@article{musluoglu2023dansf,
+
+@article{musluoglu2021dtro,
+  bibtex_show={true},
+  abbr={IEEE TSP},
+  title={Distributed adaptive trace ratio optimization in wireless sensor networks},
+  preview={b_d7.pdf},
+  author={Musluoglu, Cem Ates and Bertrand, Alexander},
+  journal={IEEE Transactions on Signal Processing},
+  volume={69},
+  pages={3653--3670},
+  year={2021},
+  doi={10.1109/TSP.2021.3079808},
+  abstract={The trace ratio optimization (TRO) problem consists of finding an orthonormal basis for the discriminative subspace that maximizes the ratio of two trace operators on two covariance matrices corresponding to two distinctive classes or signal components. The TRO problem is encountered in various signal processing problems such as dimensionality reduction, signal enhancement, and discriminative analysis. In this paper, we propose a distributed and adaptive algorithm for solving the TRO problem in the context of wireless sensor networks (WSNs), where the two matrices involved in the trace ratio operators correspond to the (unknown) spatial correlation of the sensor signals across the nodes in the network. We first focus on fully-connected networks where every node can communicate with each other, but only compressed signals observations can be shared to reduce the communication cost. After showing convergence, we modify the algorithm to operate in WSNs with more general topologies. Simulation results are provided to validate and complement the theoretical results.},
+  publisher={IEEE},
+  pdf={dtro_ieee_final.pdf}
+}
+
+@inproceedings{musluoglu2021dtrofc,
+  bibtex_show={true},
   abbr={EUSIPCO},
-  title={A Distributed Adaptive Algorithm for Node-Specific Signal Fusion Problems in Wireless Sensor Networks},
-  preview={dansf_ada.pdf},
+  title={Distributed Trace Ratio Optimization in Fully-Connected Sensor Networks},
+  preview={fcdtro.pdf},
   author={Musluoglu, Cem Ates and Bertrand, Alexander},
-  journal={Accepted in Proceedings of the 2023 31st European Signal Processing Conference (EUSIPCO)},
-  pages={1--5},
-  year={2023}
+  booktitle={2020 28th European Signal Processing Conference (EUSIPCO)},
+  pages={1991--1995},
+  year={2021},
+  doi={10.23919/Eusipco47968.2020.9287589},
+  abstract={The trace ratio optimization problem consists of maximizing a ratio between two trace operators and often appears in dimensionality reduction problems for denoising or discriminant analysis. In this paper, we propose a distributed and adaptive algorithm to solve the trace ratio optimization problem over network-wide covariance matrices, which capture the spatial correlation across sensors in a wireless sensor network. We focus on fully-connected network topologies, in which case the distributed algorithm reduces the communication bottleneck by only sharing a compressed version of the observed signals at each given node. Despite this compression, the algorithm can be shown to converge to the maximal trace ratio as if all nodes would have access to all signals in the network. We provide simulation results to demonstrate the convergence and optimality properties of the proposed algorithm.},
+  slides={fcdtro_slides.pdf},
+  pdf={DTRO_eusipco_FINAL.pdf}
 }
-@article{musluoglu2023fdasf,
-  title={Distributed Adaptive Signal Fusion for Fractional Programs},
-  author={Musluoglu, Cem Ates and Bertrand, Alexander},
-  journal={Submitted for review},
-  pages={1--13},
-  year={2024}
+
+@article{musluoglu2019beyond,
+  bibtex_show={true},
+  abbr={Thesis},
+  title={Beyond Euclidean Distance Matrices},
+  author={Musluoglu, Cem Ates},
+  year={2019},
+  preview={sin_fig.png},
+  pdf={Beyond_Euclidean_Distance_Matrices.pdf},
+  poster={beyond_edm_poster.pdf},
+  abstract={In this text, we study the extension of Euclidean Distance Matrices (EDM) to other types of linear varieties. Constructing these matrices so as to contain the minimum distance between a set of linear varieties, we try to create a general framework for what we call Extended Euclidean Distance Matrices (EEDM) and look at theoretical similarities with EDMs. Then, we propose algorithms to reconstruct the set of linear varieties that generated the observed EEDM, where we concentrate on two subtypes: Minimum distance between a set of points with a set of linear varieties of any dimension; and minimum distance between a set of lines. Finally, we show that EDMs can also be easily extended from points in a Euclidean space to functions in finite dimensional Hilbert spaces.}
 }
