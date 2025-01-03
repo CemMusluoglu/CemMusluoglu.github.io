@@ -339,6 +339,21 @@ ul.task-list input[type="checkbox"] {
           color: var(--global-theme-color);
         }
       }
+      &.email:hover i::before {
+        color: #cc0000; /* Red for email hover */
+      }
+      &.linkedin:hover i::before {
+        color: #0077b5; /* Blue for LinkedIn hover */
+      }
+      &.github:hover i::before {
+        color: purple; /* Dark grey for GitHub hover */
+      }
+      &.xtwitter:hover i::before {
+        color: gray; /* Light blue for Twitter hover */
+      }
+      &.scholar:hover i::before {
+        color: #4285f4; /* Blue for Google Scholar hover */
+      }
     }
   }
 }
@@ -432,6 +447,21 @@ ul.task-list input[type="checkbox"] {
         i::before {
           color: var(--global-theme-color);
         }
+      }
+      &.email:hover i::before {
+        color: #cc0000; /* Red for email hover */
+      }
+      &.linkedin:hover i::before {
+        color: #0077b5; /* Blue for LinkedIn hover */
+      }
+      &.github:hover i::before {
+        color: purple; /* Dark grey for GitHub hover */
+      }
+      &.xtwitter:hover i::before {
+        color: gray; /* Light blue for Twitter hover */
+      }
+      &.scholar:hover i::before {
+        color: #4285f4; /* Blue for Google Scholar hover */
       }
     }
   }
