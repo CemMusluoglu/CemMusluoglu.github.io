@@ -4,7 +4,7 @@ permalink: /publications/
 title: Publications
 description: Works I have published, together with presentations, software, theses, etc.
 nav: true
-nav_order: 2
+nav_order: 1
 ---
 
 <!-- _pages/publications.md -->
