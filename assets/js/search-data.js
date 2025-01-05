@@ -30,15 +30,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-a-post-with-formatting-and-links",
+        },{id: "post-first-post",
       
-        title: "a post with formatting and links",
+        title: "First post",
       
-      description: "march &amp; april, looking forward to summer",
+      description: "",
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/blog/2025/a-post-with-formatting-and-links/";
+          window.location.href = "/blog/2025/First-post/";
         
       },
     },{id: "news-a-simple-inline-announcement",
