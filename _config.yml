@@ -202,6 +202,8 @@ exclude:
   - _pages/profiles.md
   - _pages/repositories.md
   - _pages/dropdown.md
+  - _pages/projects.md
+  - _pages/teaching.md
   - purgecss.config.js
   - README.md
   - readme_preview/
@@ -650,3 +652,4 @@ jsonresume:
   - languages
   - interests
   - references
+  - hobbies

@@ -2,7 +2,7 @@
 layout: about
 title: Home
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: 
 
 profile:
   align: right
@@ -10,13 +10,19 @@ profile:
   image_circular: true # crops the image to make it circular
   more_info: >
 
-news: true # includes a list of news items
+news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hello! I am a researcher and electrical engineer with 5+ years of research experience designing, analyzing, and implementing machine learning, signal processing, and optimization algorithms. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+As a Machine Learning Researcher at [Toqua](https://toqua.ai), I lead the efforts on improving our statistical models for ship performance predictions, working towards the decarbonization of shipping.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I was previously a postdoctoral researcher at the [Biomed](https://biomed-kuleuven.web.app) - [STADIUS](https://www.esat.kuleuven.be/stadius/) group of the Electrical Engineering Department of KU Leuven, where I also pursued my PhD studies. Within my research group specialized in biomedical data processing, I developed algorithms and methods for distributed learning over networks, targeted for applications such as EEG or acoustic signal processing.
+
+Before that, I did my MSc and BSc in Electrical and Electronics Engineering at EPFL, where I specialized in machine learning, signal processing, optimization, and telecommunications.
+
+My research interests include (distributed) machine learning and signal processing, numerical analysis and optimization, and anything related to graphs!
+
+For any discussion or questions, you can reach out to me over social media or at musluoglucem [at] gmail [dot] com
