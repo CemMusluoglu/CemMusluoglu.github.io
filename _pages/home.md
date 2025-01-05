@@ -11,8 +11,8 @@ profile:
   more_info: >
 
 news: false # includes a list of news items
-selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: true # includes a list of papers marked as "selected={true}"
+social: false # includes social icons at the bottom of the page
 ---
 
 Hello! I am a researcher and electrical engineer with 5+ years of research experience designing, analyzing, and implementing machine learning, signal processing, and optimization algorithms. 

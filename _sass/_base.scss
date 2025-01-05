@@ -346,10 +346,10 @@ ul.task-list input[type="checkbox"] {
         color: #0077b5; /* Blue for LinkedIn hover */
       }
       &.github:hover i::before {
-        color: purple; /* Dark grey for GitHub hover */
+        color: purple; /* Purple for GitHub hover */
       }
       &.xtwitter:hover i::before {
-        color: gray; /* Light blue for Twitter hover */
+        color: gray; /* Light gray for Twitter hover */
       }
       &.scholar:hover i::before {
         color: #4285f4; /* Blue for Google Scholar hover */
@@ -455,10 +455,10 @@ ul.task-list input[type="checkbox"] {
         color: #0077b5; /* Blue for LinkedIn hover */
       }
       &.github:hover i::before {
-        color: purple; /* Dark grey for GitHub hover */
+        color: purple; /* Purple for GitHub hover */
       }
       &.xtwitter:hover i::before {
-        color: gray; /* Light blue for Twitter hover */
+        color: gray; /* Light gray for Twitter hover */
       }
       &.scholar:hover i::before {
         color: #4285f4; /* Blue for Google Scholar hover */
@@ -800,8 +800,9 @@ footer.sticky-bottom {
         }
 
         > em {
-          border-bottom: 1px solid;
           font-style: normal;
+          color: var(--global-theme-color);
+          font-weight: bold;
         }
 
         > span.more-authors {
