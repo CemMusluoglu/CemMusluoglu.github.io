@@ -7,4 +7,4 @@ tags:
 categories: 
 ---
 
-My first post!
+My first post! I am planning to share here topics of discussion ranging from mathematics to music!
