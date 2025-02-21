@@ -16,7 +16,7 @@
       "startDate": "2019-09-02",
       "endDate": "2024-07-26",
       "location": "Leuven, BE",
-      "summary": "Reseracher on distributed machine learning and signal processing methods for wireless sensor networks within the Biomed-STADIUS group, focusing in biomedical applications.",
+      "summary": "Researcher on distributed machine learning and signal processing methods for wireless sensor networks within the Biomed-STADIUS group, focusing in biomedical applications.",
       "highlights": ["Distributed machine learning and signal processing algorithms", "Denoising, dimensionality reduction, correlation & component analysis, etc. in adaptive settings for EEG sensors, microphone arrays.", "Created a generic framework for these methods including rigorous analyses and theoretical guarantees", "Developed a toolbox implementing this framework in Python and MATLAB", "Extending the algorithmic framework that I built toward new fields, such as federated learning"]
     },
     {
