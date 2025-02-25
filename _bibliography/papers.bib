@@ -1,17 +1,32 @@
 ---
 ---
 
-@article{musluoglu2024districa,
+@article{musluoglu2025districa,
   bibtex_show={true},
-  abbr={arXiv},
+  selected={true},
+  abbr={IEEE SPL},
   title={Distributed Blind Source Separation based on FastICA},
-  preview={ica_convergence_K.jpg},
+  preview={ica_reconstructed.pdf},
   author={Musluoglu, Cem Ates and Bertrand, Alexander},
-  journal={Submitted for review},
+  journal={Accepted for publication in IEEE Signal Processing Letters},
   pages={1--5},
-  year={2024},
+  year={2025},
   abstract={With the emergence of wireless sensor networks (WSNs), many traditional signal processing tasks are required to be computed in a distributed fashion, without transmissions of the raw data to a centralized processing unit, due to the limited energy and bandwidth resources available to the sensors. In this paper, we propose a distributed independent component analysis (ICA) algorithm, which aims at identifying the original signal sources based on observations of their mixtures measured at various sensor nodes. One of the most commonly used ICA algorithms is known as FastICA, which requires a spatial pre-whitening operation in the first step of the algorithm. Such a pre-whitening across all nodes of a WSN is impossible in a bandwidth-constrained distributed setting as it requires to correlate each channel with each other channel in the WSN. We show that an explicit network-wide pre-whitening step can be circumvented by leveraging the properties of the so-called Distributed Adaptive Signal Fusion (DASF) framework. Despite the lack of such a network-wide pre-whitening, we can still obtain the  least Gaussian independent components of the centralized ICA solution, where scales linearly with the required communication load.},
-  pdf={districa_submitted.pdf}
+  doi={https://doi.org/10.1109/LSP.2025.3540370},
+  pdf={districa_spl.pdf}
+}
+
+@article{musluoglu2025fdasf,
+  bibtex_show={true},
+  abbr={IEEE TSIPN},
+  title={Distributed Adaptive Signal Fusion for Fractional Programs},
+  preview={dasf_vs_fdasf_2.jpg},
+  author={Musluoglu, Cem Ates and Bertrand, Alexander},
+  journal={Accepted for publication in IEEE Transactions on Signal and Information Processing over Networks},
+  pages={1--13},
+  abstract={The distributed adaptive signal fusion (DASF) framework allows to solve spatial filtering optimization problems in a distributed and adaptive fashion over a bandwidth-constrained wireless sensor network. The DASF algorithm requires each node to sequentially build a compressed version of the original network-wide problem and solve it locally. However, these local problems can still result in a high computational load at the nodes, especially when the required solver is iterative. In this paper, we study the particular case of fractional programs, i.e., problems for which the objective function is a fraction of two continuous functions, which indeed require such iterative solvers. By exploiting the structure of a commonly used method for solving fractional programs and interleaving it with the iterations of the standard DASF algorithm, we obtain a distributed algorithm with a significantly reduced computational cost compared to the straightforward application of DASF as a meta-algorithm. We prove convergence and optimality of this "fractional DASF" (FDASF) algorithm and demonstrate its performance via numerical simulations.},
+  year={2025},
+  pdf={fdasf_ieee.pdf}
 }
 
 @ARTICLE{musluoglu2024tutorial,
@@ -22,19 +37,6 @@
     preview={tutorial_sam.jpg},
     slides={DASF_SAM_Tutorial.pdf},
     year={2024}
-}
-
-@article{musluoglu2023fdasf,
-  bibtex_show={true},
-  abbr={arXiv},
-  title={Distributed Adaptive Signal Fusion for Fractional Programs},
-  preview={dasf_vs_fdasf_2.jpg},
-  author={Musluoglu, Cem Ates and Bertrand, Alexander},
-  journal={Submitted for review},
-  pages={1--13},
-  abstract={The distributed adaptive signal fusion (DASF) framework allows to solve spatial filtering optimization problems in a distributed and adaptive fashion over a bandwidth-constrained wireless sensor network. The DASF algorithm requires each node to sequentially build a compressed version of the original network-wide problem and solve it locally. However, these local problems can still result in a high computational load at the nodes, especially when the required solver is iterative. In this paper, we study the particular case of fractional programs, i.e., problems for which the objective function is a fraction of two continuous functions, which indeed require such iterative solvers. By exploiting the structure of a commonly used method for solving fractional programs and interleaving it with the iterations of the standard DASF algorithm, we obtain a distributed algorithm with a significantly reduced computational cost compared to the straightforward application of DASF as a meta-algorithm. We prove convergence and optimality of this "fractional DASF" (FDASF) algorithm and demonstrate its performance via numerical simulations.},
-  year={2024},
-  pdf={fdasf_submitted.pdf}
 }
 
 @article{musluoglu2023thesis,
@@ -84,7 +86,7 @@
   pdf={dansf_eusipco.pdf},
 }
 
-@inproceedings{musluoglu2023computationally,
+@inproceedings{musluoglu2023fdasf,
   bibtex_show={true},
   selected={true},
   abbr={ICASSP},
@@ -101,7 +103,7 @@
   pdf={fdasf_icassp.pdf}
 }
 
-@ARTICLE{musluoglu2022unifiedp1,
+@ARTICLE{musluoglu2023dasf,
   bibtex_show={true},
   selected={true},
   abbr={IEEE TSP},
@@ -118,7 +120,7 @@
   doi={10.1109/TSP.2023.3275272}
 }
 
-@ARTICLE{musluoglu2022unifiedp2,
+@ARTICLE{musluoglu2023dasfp2,
   bibtex_show={true},
   selected={true},
   abbr={IEEE TSP},
@@ -192,7 +194,7 @@
   pdf={dtro_ieee_final.pdf}
 }
 
-@inproceedings{musluoglu2021dtrofc,
+@inproceedings{musluoglu2021fcdtro,
   bibtex_show={true},
   abbr={EUSIPCO},
   title={Distributed Trace Ratio Optimization in Fully-Connected Sensor Networks},
@@ -207,7 +209,7 @@
   pdf={DTRO_eusipco_FINAL.pdf}
 }
 
-@article{musluoglu2019beyond,
+@article{musluoglu2019beyondedms,
   bibtex_show={true},
   abbr={Thesis},
   title={Beyond Euclidean Distance Matrices},
