@@ -2,13 +2,16 @@
 layout: about
 title: Home
 permalink: /
-subtitle: 
+subtitle:
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
+    PhD KU Leuven 2023<br>
+    MSc EPFL 2019<br>
+    BSc EPFL 2017
 
 news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
