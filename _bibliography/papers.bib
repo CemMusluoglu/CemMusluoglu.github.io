@@ -8,10 +8,12 @@
   title={Distributed Blind Source Separation based on FastICA},
   preview={ica_reconstructed.pdf},
   author={Musluoglu, Cem Ates and Bertrand, Alexander},
-  journal={Accepted for publication in IEEE Signal Processing Letters},
-  pages={1--5},
+  journal={IEEE Signal Processing Letters},
+  volume={32},
+  number = {},
+  pages={881-885},
   year={2025},
-  abstract={With the emergence of wireless sensor networks (WSNs), many traditional signal processing tasks are required to be computed in a distributed fashion, without transmissions of the raw data to a centralized processing unit, due to the limited energy and bandwidth resources available to the sensors. In this paper, we propose a distributed independent component analysis (ICA) algorithm, which aims at identifying the original signal sources based on observations of their mixtures measured at various sensor nodes. One of the most commonly used ICA algorithms is known as FastICA, which requires a spatial pre-whitening operation in the first step of the algorithm. Such a pre-whitening across all nodes of a WSN is impossible in a bandwidth-constrained distributed setting as it requires to correlate each channel with each other channel in the WSN. We show that an explicit network-wide pre-whitening step can be circumvented by leveraging the properties of the so-called Distributed Adaptive Signal Fusion (DASF) framework. Despite the lack of such a network-wide pre-whitening, we can still obtain the  least Gaussian independent components of the centralized ICA solution, where scales linearly with the required communication load.},
+  abstract={With the emergence of wireless sensor networks (WSNs), many traditional signal processing tasks are required to be computed in a distributed fashion, without transmissions of the raw data to a centralized processing unit, due to the limited energy and bandwidth resources available to the sensors. In this paper, we propose a distributed independent component analysis (ICA) algorithm, which aims at identifying the original signal sources based on observations of their mixtures measured at various sensor nodes. One of the most commonly used ICA algorithms is known as FastICA, which requires a spatial pre-whitening operation in the first step of the algorithm. Such a pre-whitening across all nodes of a WSN is impossible in a bandwidth-constrained distributed setting as it requires to correlate each channel with each other channel in the WSN. We show that an explicit network-wide pre-whitening step can be circumvented by leveraging the properties of the so-called Distributed Adaptive Signal Fusion (DASF) framework. Despite the lack of such a network-wide pre-whitening, we can still obtain the $Q$ least Gaussian independent components of the centralized ICA solution, where $Q$ scales linearly with the required communication load.},
   doi={https://doi.org/10.1109/LSP.2025.3540370},
   pdf={districa_spl.pdf}
 }
@@ -26,6 +28,7 @@
   pages={1--13},
   abstract={The distributed adaptive signal fusion (DASF) framework allows to solve spatial filtering optimization problems in a distributed and adaptive fashion over a bandwidth-constrained wireless sensor network. The DASF algorithm requires each node to sequentially build a compressed version of the original network-wide problem and solve it locally. However, these local problems can still result in a high computational load at the nodes, especially when the required solver is iterative. In this paper, we study the particular case of fractional programs, i.e., problems for which the objective function is a fraction of two continuous functions, which indeed require such iterative solvers. By exploiting the structure of a commonly used method for solving fractional programs and interleaving it with the iterations of the standard DASF algorithm, we obtain a distributed algorithm with a significantly reduced computational cost compared to the straightforward application of DASF as a meta-algorithm. We prove convergence and optimality of this "fractional DASF" (FDASF) algorithm and demonstrate its performance via numerical simulations.},
   year={2025},
+  doi={10.1109/TSIPN.2025.3546462},
   pdf={fdasf_ieee.pdf}
 }
 
@@ -45,6 +48,8 @@
   title={Distributed Spatial Filtering in Wireless Sensor Networks},
   author={Musluoglu, Cem Ates},
   year={2023},
+  link={https://theses.eurasip.org/theses/963/distributed-spatial-filtering-in-wireless-sensor/},
+  note={PhD thesis, KU Leuven, Belgium, supervised by Prof. Alexander Bertrand},
   abstract={Wireless sensor networks (WSNs) paved the way for accessing data previously unavailable by deploying sensors in various locations in space, each collecting local measurements of a target source signal. By exploiting the information resulting from the multitude of signals measured at the different sensors of the network, various tasks can be achieved, such as denoising or dimensionality reduction which can in turn be used, e.g., for source localization or detecting seizures from electroencephalography measurements. 
 
   Spatial filtering consists of linearly combining the signals measured at each sensor of the network such that the resulting filtered signal is optimal in some sense. This technique is widely used in biomedical signal processing, wireless communication, and acoustics, among other fields. In spatial filtering tasks, the aim is to exploit the correlation between the signals of all sensors in the network, therefore requiring access to all signals collected at the nodes. Due to the high energy cost of transmitting these signals to a central processing unit, many applications require a fully distributed approach to solve spatial filtering problems in order to reduce the energy and bandwidth requirements. Although various distributed signal processing methods already exist, many of them are not designed to solve spatial filtering problems, which makes them either impractical or not usable in this setting. On the other hand, existing methods for distributed spatial filtering are tailored for specific problems. The aim of this thesis is therefore to provide a generic framework for designing distributed algorithms for such spatial filtering problems.
@@ -218,5 +223,19 @@
   preview={sin_fig.png},
   pdf={Beyond_Euclidean_Distance_Matrices.pdf},
   poster={beyond_edm_poster.pdf},
+  link={https://infoscience.epfl.ch/entities/publication/cf673f4b-9cbd-4591-a293-4e53db468701},
+  note={Master's thesis, EPFL, Switzerland, at the Audiovisual Communications Laboratory (LCAV) supervised by Dr. Adam Scholefield},
   abstract={In this text, we study the extension of Euclidean Distance Matrices (EDM) to other types of linear varieties. Constructing these matrices so as to contain the minimum distance between a set of linear varieties, we try to create a general framework for what we call Extended Euclidean Distance Matrices (EEDM) and look at theoretical similarities with EDMs. Then, we propose algorithms to reconstruct the set of linear varieties that generated the observed EEDM, where we concentrate on two subtypes: Minimum distance between a set of points with a set of linear varieties of any dimension; and minimum distance between a set of lines. Finally, we show that EDMs can also be easily extended from points in a Euclidean space to functions in finite dimensional Hilbert spaces.}
+}
+
+@article{musluoglu2018quantizationsgd,
+  bibtex_show={true},
+  abbr={Thesis},
+  title={Quantization and Compression for Distributed Optimization},
+  author={Musluoglu, Cem Ates},
+  year={2018},
+  preview={comparison_p.png},
+  pdf={gradient_compression.pdf},
+  note={Semester project, EPFL, Switzerland, at the Machine Learning and Optimization Laboratory (MLO) supervised by Dr. Sebastian Urban Stich and Prof. Martin Jaggi},
+  abstract={In the context of distributed optimization, the large number of features for each sample of data implies a high dimensional gradient vector. Adding it to the numerical precision of each entry results in communication of the vectors being the bottleneck. For this purpose, various compression/quantization methods have been studied. This work studies subproblems of finding the best function for this purpose.}
 }
