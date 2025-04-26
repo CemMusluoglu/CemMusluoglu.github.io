@@ -2,10 +2,19 @@
   "basics": {},
   "work": [
     {
+      "name": "FibriCheck",
+      "position": "Data Scientist",
+      "startDate": "2025-04-28",
+      "endDate": "",
+      "location": "Hasselt, BE",
+      "summary": "",
+      "highlights": []
+    },
+    {
       "name": "Toqua",
       "position": "Machine Learning Researcher",
       "startDate": "2024-07-29",
-      "endDate": "",
+      "endDate": "2025-04-25",
       "location": "Ghent, BE",
       "summary": "Lead machine learning researcher at Toqua, building statistical models to decarbonize shipping using neural networks.",
       "highlights": ["Physics informed neural networks", "Ship performance predictions"]

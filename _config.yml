@@ -273,8 +273,8 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ["math", "code", "music"] # these tags will be displayed on the front page of your blog
-display_categories: ["math", "code", "music"] # these categories will be displayed on the front page of your blog
+display_tags: ["technical", "music", "graphical design"] # these tags will be displayed on the front page of your blog
+display_categories: ["technical", "music", "graphical design"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
