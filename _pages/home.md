@@ -20,7 +20,7 @@ social: false # includes social icons at the bottom of the page
 
 Hello! I am a researcher and electrical engineer with 5+ years of research experience designing, analyzing, and implementing machine learning, signal processing, and optimization algorithms.
 
-I have recently joined [FibriCheck](https://www.fibricheck.com) as a Data Scientist, where I will be part of the technical team improving methods to detect atrial fibrillation using ML techniques.
+I have recently joined [FibriCheck](https://www.fibricheck.com) as a Data Scientist, where I will be part of the algorithms team improving methods to detect atrial fibrillation using ML and signal processing techniques.
 
 I was previously a postdoctoral researcher at the [Biomed](https://biomed-kuleuven.web.app) - [STADIUS](https://www.esat.kuleuven.be/stadius/) group of the Electrical Engineering Department of KU Leuven, where I also pursued my PhD studies. Within my research group specialized in biomedical data processing, I developed algorithms and methods for distributed learning over networks, targeted for applications such as EEG or acoustic signal processing.
 

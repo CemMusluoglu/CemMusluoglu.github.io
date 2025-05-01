@@ -218,13 +218,41 @@ ul.task-list input[type="checkbox"] {
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 20%;
 
     .address {
       p {
         display: block;
       }
     }
+  }
+}
+
+@media (max-width: 575.98px) {
+  .profile-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .profile {
+    width: auto;
+    max-width: 120px;
+  }
+
+  .profile-text {
+    flex: 1;
+  }
+
+  .more-info {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 767.98px) and (orientation: landscape) {
+  .more-info {
+    font-size: 0.75rem;
   }
 }
 
